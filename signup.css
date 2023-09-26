@@ -1,0 +1,55 @@
+body{
+    background-image: url("https://www.alll.com/wp-content/uploads/2019/01/signup-background2-1024x576.jpg");
+    box-sizing: border-box;
+    align-items: center;
+}
+h1{
+    color: chartreuse;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+input[type=text], input[type=password],input[type=email] {
+    margin-right: 20px;
+    width: 400px;
+    height: 30px;
+    background-color: bisque;
+}
+table {
+    background-color: rgb(127, 255, 212);
+    border: 1px solid grey;
+    border-radius: 20px;
+    align-items: center;
+    margin: 20px 0 10px 30%;
+}
+td {
+    font-size: medium;
+    padding: 15px 0 10px 0;
+    color: rgb(13, 46, 46);
+    font-weight: bolder;
+}
+#signupbtn {
+    color: brown;
+    margin:15px 0 20px 50%;
+    width: 100px;
+    font-size: medium;
+    font-weight: bold;
+    font-style: oblique;
+    padding: 15px;
+}
+#signupbtn:hover {
+    color: rgb(0, 217, 255);
+    background-color: blueviolet;
+    border-radius: 10px;
+    cursor: pointer;
+    opacity: 1;
+}
+a {
+    font-size: x-large;
+    color: red;
+}
+.login{
+    text-align: center;
+}
+p {
+    font-size: larger;
+}
